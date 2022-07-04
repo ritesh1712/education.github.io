@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Eduction Website</title>
+</head>
+
+<body>
+    <!-- navigantion bar section -->
+    <nav class="flex justify-between items-center p-2 bg-gradient-to-r from-cyan-500 to-blue-500 w-full">
+        <div class="logo flex justify-center items-center cursor-pointer ml-4">
+            <img src="images/logo.jpg" alt="logo" class="h-12 rounded-full mr-1">
+            <span class="font-semibold italic">COURSES</span>
+        </div>
+
+        <!-- navigantion bar list -->
+        <div class="mr-12 hidden lg:block top-0 left-0 h-full w-full pt-36 lg:pt-0 absolute lg:static" id="menu">
+            <ul class="flex space-x-7 justify-center items-center top-28 " id="list">
+                <li class="hover:font-bold font-semibold pb-8 lg:pb-0"><a href="#">HOME</a></li>
+                <li class="hover:font-bold font-semibold pb-8 lg:pb-0"><a href="#ServicesSce">SERVICES</a></li>
+                <li class="hover:font-bold font-semibold pb-8 lg:pb-0"><a href="#courses">COURSES</a></li>
+                <li class="hover:font-bold font-semibold pb-8 lg:pb-0"><a href="#faqSce">FAQS</a></li>
+                <li class="hover:font-bold font-semibold pb-8 lg:pb-0"><a href="#contactSec">CONTACT</a></li>
+                <button
+                    class="m-2 border-2 text-xl rounded-3xl py-2 px-3 flex justify-between  items-center text-white hover:from-cyan-600 hover:to-blue-600 bg-gradient-to-r hover:text-black hover:border-blue-600 shadow-lg shadow-indigo-500/40">SIGN
+                    UP
+                </button>
+            </ul>
+        </div>
+
+
+        <!-- hamburger Icons -->
+        <div
+            class="cursor-pointer lg:hidden fixed bg-gradient-to-r from-cyan-500 to-blue-500 p-2 right-0 rounded-tl-full rounded-bl-full flex justify-center items-center">
+            <i class="material-icons" id="hamburger">menu</i>
+            <i class="material-icons" id="closeBtn">close</i>
+        </div>
+    </nav>
+
+    <!-- header section -->
+    <header class="flex justify-center items-center flex-col lg:flex-row lg:justify-between  lg:pt-24 h-screen pb-24">
+        <div class="text-white p-2 mt-12 lg:mt-0 lg:ml-8 md:mt-20">
+            <h1 class="text-2xl font-semibold lg:text-4xl">Explore</h1>
+            <h1 class="text-2xl font-semibold lg:text-4xl">Your Knowledge</h1>
+            <h1 class="text-2xl font-semibold lg:text-4xl">And Skill With Us</h1>
+            <p class="text-lg mt-2">Our mission is to help people to find the best online course and learn with anytime,
+                anywhere. Lest start with us.</p>
+        </div>
+        <div class="mt-12 p-2 font-semibold">
+            <!-- header  buttons -->
+            <a href="#courses">
+                <button class="m-2 btn">Free Trial
+                    <i class="material-icons">chevron_right</i>
+                </button>
+            </a>
+
+            <a href="#courses">
+                <button
+                    class="m-2 border-2 text-xl rounded-3xl py-2 px-3 flex justify-between  items-center text-white hover:from-cyan-600 hover:to-blue-600 bg-gradient-to-r hover:text-black hover:border-blue-600 shadow-lg shadow-indigo-500/40">Get
+                    Started
+                    <i class="material-icons">chevron_right</i>
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <!-- Services section -->
+    <section id="ServicesSce" class="flex justify-center items-start flex-col lg:flex-row">
+        <div class="left lg:w-1/2 p-2 flex justify-center items-center w-full">
+            <img src="images/Services-sec.jpg" alt="group study" class="h-72 md:h-96">
+        </div>
+        <div class="right lg:w-1/2 p-8">
+            <span class="text-xl text-red-400 uppercase italic">Services___</span>
+            <h1 class="text-4xl lg:w-4/5 my-2 font-semibold">Welcome To The Online Learning Center</h1>
+            <p>Sed diam volupta. At vero eos et accusam et justo duo dolores et ea rebum. stet clita kasd gubergren, on
+                sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+            <div class="flex justify-center items-center mt-12 flex-col lg:flex-row">
+                <div
+                    class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex justify-center items-center h-12 p-3 rounded-full m-2 cursor-pointer">
+                    <i class="material-icons">star</i>
+                </div>
+                <div>
+                    <h1 class="font-semibold text-xl">Best Quality Courses</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, blanditiis. Lorem ipsum dolor sit
+                        amet.</p>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mt-4 flex-col lg:flex-row" id="Services">
+                <div
+                    class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex justify-center items-center h-12 p-3 rounded-full m-2 cursor-pointer">
+                    <i class="material-icons">person</i>
+                </div>
+                <div>
+                    <h1 class="font-semibold text-xl">Best Expert Instructor</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, blanditiis. Lorem ipsum dolor
+                        sitamet.</p>
+                </div>
+            </div>
+            <button class="btn mt-8 ml-12" id="ServicesBtn">Explore More
+                <i class="material-icons">chevron_right</i></button>
+        </div>
+    </section>
+
+
+    <!-- courses section -->
+    <section id="courses"
+        class="flex justify-center items-center p-4 flex-col bg-gradient-to-r from-cyan-100 to-blue-50">
+        <span class="uppercase text-red-500 italic text-xl mb-4">___courses___</span>
+        <h1 class="text-4xl text-center font-semibold mb-4">Explore Our Popular Courses</h1>
+        <div class="flex justify-center items-center  p-2 flex-col lg:flex-row">
+            <div class="flex justify-center items-center  p-2 flex-col lg:flex-row">
+                <div class="p-2 flex justify-center bg-white  shadow-lg shadow-black-500/40 m-2 flex-col lg:flex-row">
+                    <img src="images/courses1-sec.jpg" alt="course-1" class="h-48 md:h-64 lg:h-48 cursor-pointer">
+                    <div class="p-2">
+                        <h1 class="text-red-600 uppercase text-xl font-semibold mb-1">ui & ux design</h1>
+                        <h1 class="text-2xl font-semibold mb-4">Learn XD - UI & UX Design Essential Training</h1>
+                        <hr class="bg-black">
+                        <div class="flex justify-between items-center ">
+                            <span class="flex justify-center items-center">
+                                <i class="material-icons text-red-600 text-xl">star</i>(4.5)
+                            </span>
+                            <span class="text-red-600 font-bold text-xl cursor-pointer">$69</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 flex justify-center bg-white  shadow-lg shadow-black-500/40 m-2 flex-col lg:flex-row">
+                    <img src="images/courses1-sec.jpg" alt="course-1" class="h-48 md:h-64 lg:h-48 cursor-pointer">
+                    <div class="p-2">
+                        <h1 class="text-red-600 uppercase text-xl font-semibold mb-1">web development</h1>
+                        <h1 class="text-2xl font-semibold mb-4">The Complete 2022 Web Development Bootcamp</h1>
+                        <hr class="bg-black">
+                        <div class="flex justify-between items-center">
+                            <span class="flex justify-center items-center">
+                                <i class="material-icons text-red-600 text-xl">star</i>(4.2)
+                            </span>
+                            <span class="text-red-600 font-bold text-xl cursor-pointer">$99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center items-center p-2 flex-col lg:flex-row" id="course">
+            <div class="flex justify-center items-center  p-2 flex-col lg:flex-row">
+                <div class="p-2 flex justify-center bg-white  shadow-lg shadow-black-500/40 m-2 flex-col lg:flex-row">
+                    <img src="images/courses1-sec.jpg" alt="course-1" class="h-48 md:h-64 lg:h-48 cursor-pointer">
+                    <div class="p-2">
+                        <h1 class="text-red-600 uppercase text-xl font-semibold mb-1">graphic design</h1>
+                        <h1 class="text-2xl font-semibold mb-4">Graphic Design Masterclass Learn Great Design</h1>
+                        <hr class="bg-black">
+                        <div class="flex justify-between items-center ">
+                            <span class="flex justify-center items-center">
+                                <i class="material-icons text-red-600 text-xl">star</i>(4.5)
+                            </span>
+                            <span class="text-red-600 font-bold text-xl cursor-pointer">$69</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 flex justify-center bg-white shadow-lg shadow-black-500/40 m-2 flex-col lg:flex-row">
+                    <img src="images/courses1-sec.jpg" alt="course-1" class="h-48 md:h-64 lg:h-48 cursor-pointer">
+                    <div class="p-2">
+                        <h1 class="text-red-600 uppercase text-xl font-semibold mb-1">network security</h1>
+                        <h1 class="text-2xl font-semibold mb-4">Complete Cyber Security Coerse: Network Security</h1>
+                        <hr class="bg-black">
+                        <div class="flex justify-between items-center">
+                            <span class="flex justify-center items-center">
+                                <i class="material-icons text-red-600 text-xl">star</i>(4.5)
+                            </span>
+                            <span class="text-red-600 font-bold text-xl cursor-pointer">$69</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <button class="m-2 btn" id="coursesBtn">See More
+            <i class="material-icons">chevron_right</i>
+        </button>
+    </section>
+
+    <!-- FAQ sectoin -->
+    <section id="faqSce" class="flex justify-center items-start flex-col lg:flex-row">
+        <div class="left lg:w-1/2 p-8">
+            <span class="text-xl text-red-400 uppercase italic">FAQs___</span>
+            <h1 class="text-4xl lg:w-4/5 my-2 font-semibold">Why Choose Us? Best Way TO Improve Skill</h1>
+            <p>Sed diam volupta. At vero eos et accusam et justo duo dolores et ea rebum. stet clita kasd gubergren, on
+                sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+            <div class="flex justify-center items-center mt-12 lg:flex-row flex-col">
+                <div class="flex justify-center items-center">
+                    <div
+                        class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex justify-center items-center h-12 p-3 rounded-full m-2 cursor-pointer">
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                    <div class="mr-4">Quality instructor</div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div
+                        class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex justify-center items-center h-12 p-3 rounded-full m-2 cursor-pointer">
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                    <div class="mr-4">Online class</div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div
+                        class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex justify-center items-center h-12 p-3 rounded-full m-2 cursor-pointer">
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                    <div class="mr-4">Always Support</div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center mt-4 lg:flex-row flex-col">
+                <div class="flex justify-center items-center">
+                    <div
+                        class="bg-gradient-to-r from-pink-500 to-red-500 text-white flex justify-center items-center h-12 p-3 rounded-full m-2 cursor-pointer">
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                    <div class="mr-4 pl-4">Get Certificate</div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div
+                        class="bg-gradient-to-r from-pink-500 to-red-500 text-white flex justify-center items-center h-12 p-3 rounded-full m-2 cursor-pointer">
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                    <div class="mr-4">Video Tutoril</div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div
+                        class="bg-gradient-to-r from-pink-500 to-red-500 text-white flex justify-center items-center h-12 p-3 rounded-full m-2 cursor-pointer">
+                        <i class="material-icons">chevron_right</i>
+                    </div>
+                    <div class="mr-4">Skill Development</div>
+                </div>
+            </div>
+            <a href="#courses">
+                <button class="btn mt-8 ml-12">Learn More<i class="material-icons">chevron_right</i></button>
+            </a>
+        </div>
+        <div class="right lg:w-1/2 p-2 flex justify-center items-center w-full">
+            <img src="images/FAQ-sec.jpg" alt="group study" class="h-72 md:h-96">
+        </div>
+    </section>
+
+
+    <!-- contact section  -->
+    <section id="contactSec">
+        <div class="flex justify-center flex-col items-center p-4">
+            <span class="text-3xl text-red-400 uppercase italic p-2 text-center"> ___CONTACT___</span>
+            <p class="text-white text-2xl pt-4">Drop us a line and we'll be happy to get back to you Monday-Friday</p>
+        </div>
+        <div class="flex justify-center items-center mt-12 flex-col  mb-4">
+            <div class="flex justify-between items-center lg:w-1/2 flex-col w-4/5 lg:flex-row">
+                <span class="pb-4 lg:pr-4">
+                    <label for="first_name" class="font-semibold text-lg text-white">FIRST NAME</label>
+                    <input type="text" id="first_name" class="outline-none p-1 w-full shadow-lg shadow-black-500/40">
+                </span>
+                <span class="pb-4 lg:pr-4">
+                    <label for="last_name" class="font-semibold text-lg text-white">LAST NAME</label>
+                    <input type="text" id="last_name" class="outline-none p-1 w-full shadow-lg shadow-black-500/40">
+                </span>
+            </div>
+            <div class="lg:mt-12 mt-3 lg:w-1/2 w-4/5">
+                <label for="email" class="font-semibold text-lg text-white">EMAIL ADDRESS</label>
+                <input type="email" id="email" class="outline-none p-1 w-full shadow-lg shadow-black-500/40">
+            </div>
+            <div class="lg:mt-12 mt-3 lg:w-1/2 w-4/5">
+                <label for="msg" class="font-semibold text-lg text-white">MASSAGE</label>
+                <textarea name="msg" id="msgarea" class="outline-none p-1 w-full shadow-lg shadow-black-500/40"
+                    placeholder="Typing Your Massage Here..."></textarea>
+            </div>
+            <button class="btn lg:mt-8 mt-2">Send Massage<i class="material-icons">chevron_right</i>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="bg-gradient-to-r from-cyan-300 to-blue-500 mt-8 p-4 flex justify-between flex-col lg:flex-row">
+        <div class="flex justify-center items-center flex-col">
+            <div class="logo flex justify-center items-center cursor-pointer mb-4">
+                <img src="images/logo.jpg" alt="logo" class="h-12 rounded-full mr-1">
+                <span class="font-semibold italic">COURSES</span>
+            </div>
+            <button
+                class="m-2 border-2 text-xl rounded-3xl py-2 px-3 flex justify-between  items-center text-white hover:from-cyan-600 hover:to-blue-600 bg-gradient-to-r hover:text-black hover:border-blue-600 shadow-lg shadow-indigo-500/40">SIGN
+                UP</button>
+        </div>
+        <div class="flex p-2 flex-col lg:flex-row">
+            <div class="p-2 flex flex-col justify-center items-center">
+                <h1 class="font-semibold italic text-2xl">Courses</h1>
+                <a href="#courses" class="p-1 hover:underline">UI & UX DESIGN</a>
+                <a href="#courses" class="p-1 hover:underline">WEB DEVELOPMENT</a>
+                <a href="#courses" class="p-1 hover:underline">GRAPHIC DESIGN</a>
+                <a href="#courses" class="p-1 hover:underline">NETWORK SECURITY</a>
+            </div>
+            <div class="p-2 flex flex-col justify-center items-center">
+                <h1 class="font-semibold italic text-2xl">Use Full Links</h1>
+                <a href="#ServicesSce" class="p-1 hover:underline">SERVICES</a>
+                <a href="#courses" class="p-1 hover:underline">COURSES</a>
+                <a href="#faqSce" class="p-1 hover:underline">FAQS</a>
+                <a href="#contactSec" class="p-1 hover:underline">CONTACT</a>
+            </div>
+        </div>
+
+        <!-- social media links -->
+        <div class="flex justify-center items-center p-4">
+            <a href="https://www.instagram.com/ritesh_raghuwanshi_1712/?igshid=YmMyMTA2M2Y="><img
+                    src="images/instagram.png" alt="" class="m-2 h-12 cursor-pointer hover:text-red-600"> </a>
+            <a href="https://www.linkedin.com/in/ritesh-raghuwanshi-b258b1225"><img src="images/linkedin.png" alt=""
+                    class="m-2 h-12 cursor-pointer hover:text-red-600"> </a>
+            <a href=""><img src="images/facebook.png" alt="" class="m-2 h-12 cursor-pointer hover:text-red-600"> </a>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
