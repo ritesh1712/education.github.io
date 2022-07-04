@@ -22,7 +22,7 @@ header::before {
     content: "";
     position: absolute;
     width: 100%;
-    height: 65rem;
+    height: 50rem;
     z-index: -1;
     background-attachment: fixed;
 }
